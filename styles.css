@@ -50,3 +50,7 @@ hr {
   justify-content: space-around;
   padding: 20px;
 }
+.attribution{
+  display: contents;
+  text-align: end;
+}
