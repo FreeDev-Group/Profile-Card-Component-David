@@ -122,12 +122,12 @@ I used AI to help me overcome specific challenges and optimize my workflow:
 
 ## Acknowledgments
 
-I'd like to thank my mentor @salomon, our team, and Freedev for helper and assistant
+I'd like to thank my mentor @salomon, our team, and FreeDev for helping and assisting.
 the AI assistant that helped me structured my documentation 
 
 
 ## Author
 
-- Frontend Mentor - @[David-max-tech]
-- GitHub - [David-max-tech]
-- Twitter - @[David Mumeme]
+- Frontend Mentor - (David-max-tech)[ ]
+- GitHub - (David-max-tech)[ ]
+- Twitter - (David Mumeme)[ ]
