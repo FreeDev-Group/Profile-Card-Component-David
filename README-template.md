@@ -122,7 +122,7 @@ I used AI to help me overcome specific challenges and optimize my workflow:
 
 ## Acknowledgments
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 I would like to express my sincere gratitude to my mentor @salomon for his guidance, valuable feedback, and continuous support throughout this project.
 
@@ -140,4 +140,4 @@ This project was a great opportunity to strengthen my frontend development skill
 
 - GitHub - [David-max-tech] https://github.com/David-max-tech
 
-- Twitter - @[David Mumeme]'''
+- Twitter - @[David Mumeme]
