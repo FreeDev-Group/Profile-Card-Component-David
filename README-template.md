@@ -34,7 +34,7 @@ You will find the style guide with colors, font info, and design rules in the st
 
 ### Screenshot
 
-my screenshot: (images/jonson_lux.jpg)
+my screenshot: (images/firefox_m.jpg)
 
 ---
 
@@ -122,12 +122,22 @@ I used AI to help me overcome specific challenges and optimize my workflow:
 
 ## Acknowledgments
 
-I'd like to thank my mentor @salomon, our team, and Freedev for helper and assistant
-the AI assistant that helped me structured my documentation 
+## 🙏 Acknowledgments
 
+I would like to express my sincere gratitude to my mentor @salomon for his guidance, valuable feedback, and continuous support throughout this project.
+
+Special thanks to my team for their collaboration, encouragement, and shared learning experience.
+
+I also appreciate FreeDev for providing resources and a supportive environment that helped me grow as a developer.
+
+Additionally, I would like to acknowledge the AI assistant that supported me in refining, and improving my documentation.
+
+This project was a great opportunity to strengthen my frontend development skills and attention to detail while working on a real-world design challenge.
 
 ## Author
 
-- Frontend Mentor - @[David-max-tech]
-- GitHub - [David-max-tech]
-- Twitter - @[David Mumeme]
+- Frontend Mentor - @[David-max-tech] https://www.frontendmentor.io/profile/David-max-tech
+
+- GitHub - [David-max-tech] https://github.com/David-max-tech
+
+- Twitter - @[David Mumeme]'''
