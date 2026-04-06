@@ -134,6 +134,8 @@ Additionally, I would like to acknowledge the AI assistant that supported me in 
 
 This project was a great opportunity to strengthen my frontend development skills and attention to detail while working on a real-world design challenge.
 
+Many thanks to MichaelKentBurns.com for this wonderful opportunity.
+
 ## Author
 
 - Frontend Mentor - @[David-max-tech] https://www.frontendmentor.io/profile/David-max-tech
