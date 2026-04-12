@@ -1,98 +1,145 @@
-# Frontend Mentor - Profile card component
+# Frontend Mentor - Profile card component solution
 
-![Design preview for the Profile card component coding challenge](preview.jpg)
 
-## Welcome! 👋
+This is a solution to the **Profile Card Component** challenge on Frontend Mentor.  
+Frontend Mentor challenges help me improve my coding skills by building realistic projects.
 
-Thanks for checking out this front-end coding challenge.
+## Table of contents
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Overview
+The challenge
+Screenshot
+Links
+My process
+Built with
+What I learned
+Continued development
+Useful resources
+AI Collaboration
+Author
+Acknowledgments
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+My goal for this project was to:
+Replicate the profile card design with high precision using Flexbox.
+Ensure a seamless responsive transition between mobile and desktop views.
+Implement correct background positioning for the decorative circles as per the style guide
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+My task is to build out this profile card component and get it looking as close to the design as possible.  
+The design files are inside the design folder and include both mobile and desktop layouts.  
+You will find the style guide with colors, font info, and design rules in the style-guide.
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+my screenshot: (images/firefox_m.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+---
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+## Links
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: *[not yet deployed]*
+- Live Site URL: *(not yet deployed)*
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+---
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Built with
 
-## Using AI coding assistants
+- Semantic HTML5 markup  
+- CSS custom properties  
+- Flexbox  
+- Mobile‑first workflow
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+---
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+## What I Learned
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+During this challenge, I learned how to:
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+- Structure content using semantic HTML  
+- Style a component according to a design guide  
+- Apply Flexbox for layout  
+- Make the design responsive for different screen sizes
 
-## Building your project
+## HTML
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+<div class="card">
+    <div class="card-bg"></div>
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+    <img src="images/image-victor.jpg" alt="profile" class="profile-img">
 
-## Deploying your project
+    <div class="info">
+      <h2>Victor Crest <span>26</span></h2>
+      <p>London</p>
+    </div>
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+---
+## CSS
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+## Continued Development
 
-## Create a custom `README.md`
+In future updates, I plan to:
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- Improve responsive techniques  
+- Add subtle animations  
+- Clean up CSS even further
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+---
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## Improvements Made
 
-## Submitting your solution
+Here is what I did to complete the project:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- Tested and adjusted responsive design on different screens  
+- Cleaned up and organized CSS  
+- Completed a custom README based on the example provided  
+- Committed and submitted a Pull Request
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Use of AI
 
-## Sharing your solution
+I used AI to help me overcome specific challenges and optimize my workflow:
 
-There are multiple places you can share your solution:
+- **Refining the README:** Used AI to structure this documentation and ensure it follows professional standards.
+- **Background Positioning:** Got assistance in understanding how to stack and position multiple background images effectively using CSS.
+- **Code Review:** Used AI to double-check my semantic HTML and suggest better ways to organize my CSS variables.
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+## Useful resources
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+- [MDN Multiple Backgrounds](https://mozilla.org) - This helped me understand how to stack the two decorative circles.
+- [A Complete Guide to Flexbox](https://css-tricks.com) - My go-to for centering the card perfectly.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+## Acknowledgments
 
-## Got feedback for us?
+## Acknowledgments
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi@frontendmentor.io.
+I would like to express my sincere gratitude to my mentor @salomon for his guidance, valuable feedback, and continuous support throughout this project.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+Special thanks to my team for their collaboration, encouragement, and shared learning experience.
 
-**Have fun building!** 🚀
+I also appreciate FreeDev for providing resources and a supportive environment that helped me grow as a developer.
+
+Additionally, I would like to acknowledge the AI assistant that supported me in refining, and improving my documentation.
+
+This project was a great opportunity to strengthen my frontend development skills and attention to detail while working on a real-world design challenge.
+
+Many thanks to MichaelKentBurns.com for this wonderful opportunity.
+
+## Author
+
+- Frontend Mentor - @[David-max-tech] https://www.frontendmentor.io/profile/David-max-tech
+
+- GitHub - [David-max-tech] https://github.com/David-max-tech
+
+- Twitter - @[David Mumeme]
